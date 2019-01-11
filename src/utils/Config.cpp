@@ -88,7 +88,7 @@ Config::loadDefaults( bool clearBeforeLoad ) {
 		clear();
 
 	// general
-	set( "MAP_TYPE", 			"beta" 			);
+	set( "MAP_TYPE", 			"beta" 			);	// "beta" for Beta-SLAM or "bayes" for classical SLAM
 	set( "FILENAME", 			"SET_ME" 		);
 	set( "GT_FILENAME",			"" 				);
 	set( "OUTPUT_BASEDIR",		"../results" 	);
