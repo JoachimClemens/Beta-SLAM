@@ -7,17 +7,13 @@ Simultaneous localization and mapping (SLAM) is one of the most frequently studi
 Different map representations have been proposed in the past and a popular one are occupancy grid maps, which are particularly well suited for navigation tasks. 
 The uncertainty in these maps is usually modeled as a single Bernoulli distribution per grid cell.
 This has the disadvantage that one cannot distinguish between uncertainty caused by different phenomena like missing or conflicting information. 
-With the β-SLAM algorithm, overcome this limitation by modeling the occupancy probabilities as random variables.
+In the β-SLAM algorithm, we overcome this limitation by modeling the occupancy probabilities as random variables.
 Those are assumed to be beta-distributed and account for the different causes of uncertainty. 
 The additional information provided by this approach can be utilized for navigation tasks like path planning or active exploration.
 
 ### Authors
 
 Joachim Clemens, Tobias Kluth, Thomas Reineking
-
-### Note
-
-The code will be released soon.
 
 ### Paper Describing the Approach
 
