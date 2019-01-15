@@ -1,5 +1,11 @@
 # β-SLAM
+
 Simultaneous localization and grid mapping with beta distributions
+
+### Authors
+
+Joachim Clemens, Tobias Kluth, Thomas Reineking
+
 
 ### Description
 
@@ -11,9 +17,6 @@ In the β-SLAM algorithm, we overcome this limitation by modeling the occupancy 
 Those are assumed to be beta-distributed and account for the different causes of uncertainty. 
 The additional information provided by this approach can be utilized for navigation tasks like path planning or active exploration.
 
-### Authors
-
-Joachim Clemens, Tobias Kluth, Thomas Reineking
 
 ### Paper Describing the Approach
 
